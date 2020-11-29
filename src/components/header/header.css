@@ -1,0 +1,57 @@
+
+.menu{
+    padding: 20px;
+}
+
+.panelcolor{
+    background-color: #2e719c;
+ }
+  
+  
+.panelcolor a{
+   color: #ffffff;
+  }
+.item {
+    font-weight: bold;
+    font-family: 'Nerko One', cursive;
+    font-size: 22px;
+}
+.item a:hover{
+    color: #a8ffb5;
+
+}
+
+  @media only screen and (max-width: 768px){
+    .mcol{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        
+    }
+
+    .item a{
+        font-size: 17px;
+        margin-bottom: 20px;
+      
+    }
+
+    .mh{
+        display: none;
+    }
+   
+    header ul li.btn.mhb.icon{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        
+    }
+  }
+
+
+  @media only screen and (min-width:768px){
+   
+    .mhb{
+        display: none;
+    }
+  
+  }

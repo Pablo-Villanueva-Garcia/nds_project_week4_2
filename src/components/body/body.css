@@ -1,0 +1,22 @@
+.bodysize{
+  height: 500px;
+}
+
+.boxcolor{
+    background-color: #7ea5aa;
+    font-family: 'Nerko One', cursive;
+  }
+  
+  .boxstyle{
+    border-radius: 30px;
+    height: 300px;
+    padding: 30px;
+    text-align: initial;
+    -webkit-box-shadow: 12px 16px 24px -13px rgba(0,0,0,0.77);
+  -moz-box-shadow: 12px 16px 24px -13px rgba(0,0,0,0.77);
+  box-shadow: 12px 16px 24px -13px rgba(0,0,0,0.77);
+  }
+  
+  .boxcolor h1,p{
+    color: #ffffff;
+  }
